@@ -1,5 +1,4 @@
 .hero-section {
-    font-family: 'Phantom Sans';
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,11 +15,12 @@
     font-weight: 700;
     color: #ec3750;
     margin-bottom: 20px;
+    margin-top: 20px;
   }
   
   .hero-description {
     font-size: 1.5rem;
-    color: #1c293a;
+    color: #222D39;
     line-height: 1.6;
     margin-bottom: 40px;
   }

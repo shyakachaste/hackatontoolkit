@@ -1,39 +1,58 @@
 .navbar {
-    height: 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 80px;
-  }
-  
-  .nav-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-  }
-  
-  .logo-container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-  }
-  
-  .logo {
-    width: 120px;
-    height: auto;
-    margin-left: 10px;
-    cursor: pointer;
-    margin-top: 10px;
-  }
-  
-  @media (max-width: 768px) {
-    .navbar {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 80px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+
+.github-container {
+  display: flex;
+  align-items: center;
+}
+
+.github-icon {
+  color: #ec3750;
+  font-size: 30px;
+  transition: border 0.3s ease-in-out, transform 0.2s ease-in-out;
+  padding: 8px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+
+
+@media (max-width: 768px) {
+  .navbar {
       padding: 0 15px;
-    }
-  
-    .logo {
-      width: 100px;
-    }
   }
-  
+
+  .logo {
+      width: 100px;
+  }
+
+  .github-icon {
+      font-size: 26px;
+  }
+}
